@@ -16,7 +16,8 @@ pipeline {
 				echo 'Deploying the project'
 			}
 		}
-	} post{
+	}
+	post{
 		always{
 			echo 'This will always run'
 		}
